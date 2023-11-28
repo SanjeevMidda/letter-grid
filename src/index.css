@@ -1,0 +1,42 @@
+* {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  /* border: 1px solid black; */
+  user-select: none;
+  transition: all 1s;
+  cursor: none;
+}
+
+.App {
+  height: 100dvh;
+  background-color: rgb(214, 214, 214);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-container {
+  width: 30%;
+  height: 50%;
+  border: 1px solid white;
+  border-radius: 1%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: linear-gradient(rgb(255, 1, 20));
+}
+
+h1 {
+  font-size: 100px;
+  margin: 10px;
+}
+
+.move {
+  justify-self: end;
+  align-self: self-end;
+  background: linear-gradient(rgb(233, 6, 2));
+}
+
+/* .move2 {
+  align-self: flex-end;
+} */
